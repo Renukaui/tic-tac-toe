@@ -47,6 +47,57 @@ ol, ul {
   display: table;
 }
 
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 4px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+/*
+ * --- spicing up components ---
+ */
+/* square: 
+ - bigger size and font
+ - nice background color & transition
+ - pointer cursor
+*/
+.square {
+  font-size: 4rem;
+  height: 140px;
+  width: 140px;
+  color: #cfc8b8;
+  border: 4px solid #cfc8b8;
+}
+.square:hover {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  background-color: #e6e2da;
+  cursor: pointer;
+}
+.square.x {
+  background-color: #524a4c;
+}
+.square.o {
+  background-color: #6b948c;
+}
+
 .board {
   position: relative;
   border: 15px solid #cfc8b8;
