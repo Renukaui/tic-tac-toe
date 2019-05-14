@@ -47,6 +47,10 @@ ol, ul {
   display: table;
 }
 
+.status {
+  margin-bottom: 10px;
+}
+
 .square {
   background: #fff;
   border: 1px solid #999;
@@ -173,11 +177,20 @@ ol, ul {
           flex: 0.3;
 }
 
+.game-info__status,
 .game-info__moves {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   padding: 1rem;
+}
+
+.game-info__status {
+  font-size: 2rem;
+}
+.game-info__status {
+  color: #fff;
+  background-color: #524a4c;
 }
 
 .game-info__moves {
@@ -190,4 +203,16 @@ ol, ul {
 
 h3 {
   text-align: center;
+}
+
+.bounce {
+  background: #bd081c;
+  text-align: center;
+  padding: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  -webkit-transform: rotate(-25deg) translateX(-20px) translateY(100px);
+          transform: rotate(-25deg) translateX(-20px) translateY(100px);
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
 }
