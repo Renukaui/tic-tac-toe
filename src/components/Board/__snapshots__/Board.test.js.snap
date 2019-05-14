@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board Component render a label 1`] = `ShallowWrapper {}`;
+
+exports[`Board Component should match snapshot 1`] = `ShallowWrapper {}`;
